@@ -1,0 +1,27 @@
+html * {
+  font-family: "Courier New", Courier, monospace;
+}
+header {
+  background: lightgray;
+  padding:10px 10px 10px;
+  text-align:center;
+}
+header > nav > a {
+  display:inline-block;
+  font-variant: small-caps;
+  width:100px;
+}
+table td {
+  border:1px solid grey;
+  width: 150px;
+  height: 45px;  
+  padding:3px;
+}
+
+td > a {
+  text-decoration:none;
+}
+
+.hours {
+  font-size: 75%;
+}
